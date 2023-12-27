@@ -1,11 +1,11 @@
-// LogicalOperators
-// And , OR , NOT
+// LogicalOperators;
+// And, OR, NOT;
 
 // AND => &&
 // OR => ||
 // NOT => !
 
-// AND
+// AND;
 // let a = 10 == 10; ///true
 // let b = 10 === 20; ///false
 // console.log(a && b);
