@@ -28,7 +28,7 @@
 // console.log(add(5, 5));
 
 // function numbers(val1, val2, ...num) {
-//   return { val1, val2, num };
+//   return [val1, val2, ...num];
 // }
 // console.log(numbers("Rohit", "parm", "ritik", "amrit", "nnn"));
 
@@ -38,7 +38,15 @@
 //   address: "Amritsar",
 // };
 
-// function user(anyObject) {
-//   return ;
-// }
 // console.log(user(obj));
+
+// Function Expression
+// one();
+// function one() {
+//   console.log("This is function one");
+// }
+
+// const two = function () {
+//   console.log("Welcome to my marrege");
+// };
+// two();
