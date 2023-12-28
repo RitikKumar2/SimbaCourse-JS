@@ -1,7 +1,8 @@
-// const num = "hvgghvd";
-// const num2 = Boolean(num);
-// console.log(typeof num2);
-// console.log(num2);
+// const num = "uhuhuh";
+// const typeConvert = Boolean(num);
+
+// console.log(typeof typeConvert);
+// console.log(typeConvert);
 
 // true =>1
 // false =>0
@@ -9,7 +10,7 @@
 // Prefix
 // Postfix
 
-// Postfix
+// Postfix;
 // let x = 5;
 // let y = x++;
 // console.log("Y", y);
@@ -23,4 +24,3 @@
 
 console.log("Hello");
 console.log("yoyo");
-console.log("hello");
