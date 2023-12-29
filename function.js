@@ -41,12 +41,44 @@
 // console.log(user(obj));
 
 // Function Expression
-// one();
+
 // function one() {
 //   console.log("This is function one");
 // }
+// one();
 
-// const two = function () {
-//   console.log("Welcome to my marrege");
+// const fun = function () {
+//   console.log("This is function two");
 // };
-// two();
+
+// fun();
+
+// global and local scope
+
+// if (true) {
+//   const a = "Ritik";
+//   let b = "Hello";
+//   var c = "yyooo";
+//   console.log(a);
+// }
+
+// Nested Function
+// function parent() {
+//   const iceCream = "Choclate";
+//   function child() {
+//     const name2 = "Jaii";
+//     console.log(iceCream);
+//   }
+//   child();
+//   //   console.log(name2);
+// }
+
+// parent();
+
+// Arrow Function
+
+// Implicent Return
+// Explicent Return
+const amritArrow = (name) => name;
+
+console.log(amritArrow("Ritik"));
