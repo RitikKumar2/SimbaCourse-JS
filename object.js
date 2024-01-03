@@ -21,3 +21,27 @@
 // console.log(name);
 // console.log(`My name is ${obj.name}`);   =====>BackTicks
 // console.log(Object.values(obj));
+
+// Implicit return
+// Explicit return
+// const yoyo = (rohit) => {
+//   return rohit;
+// };
+
+// console.log(yoyo("Rohit Kumar"));
+
+// const obj = {
+//   name: "Rohit Kumar",
+//   age: 20,
+//   address: "Canada",
+//   fullName: function () {
+//     console.log(this.address);
+//   },
+// };
+
+// console.log(obj.fullName());
+
+// function yoyo() {
+//   return `My name is ${this.name} and my age is ${this.age}`;
+// }
+// console.log(yoyo(obj));

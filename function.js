@@ -79,6 +79,4 @@
 
 // Implicent Return
 // Explicent Return
-const amritArrow = (name) => name;
-
-console.log(amritArrow("Ritik"));
+// const amritArrow = (name) => name;
