@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <h1>Amritaa</h1>
+    <button id="stop">Stop</button>
+    <button id="start">start</button>
+
+    <script>
+      let bb;
+      document.querySelector("#start").addEventListener("click", function () {
+        bb = setInterval(() => {
+          console.log("Hello bacho");
+        }, 1000);
+      });
+      document.querySelector("#stop").addEventListener("click", function () {
+        clearInterval(bb);
+        console.log("Stopped");
+      });
+    </script>
+  </body>
+</html>
