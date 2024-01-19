@@ -42,7 +42,73 @@
 //   if (i == 7) {
 //     continue;
 //   }
+
 //   console.log(i);
 // }
 
 // condition ? true : false;/
+
+// while loop
+
+// let n = 0;
+// let x = 0;
+// while (n < 3) {
+//   n++;
+//   x += n;
+//   console.log(x);
+// }
+
+// Labeling the outer loop
+
+// label: for (i = 0; i <= 3; i++) {
+//   for (j = 0; j <= 3; j++) {
+//     console.log(`value of i is :${i} , value of j is : ${j}`);
+//     if (i == 2 && j == 2) {
+//       break label;
+//     }
+//   }
+// }
+
+// loop
+// for loop => for in ,for of, for Each
+// while loop
+// do while
+
+// let i = 0;
+// while (i < 10) {
+//   console.log(i);
+//   i++;
+// }
+
+// let paisa = 0;
+// do {
+//   console.log(`value of paisa is :${paisa}`);
+//   paisa++;
+// } while (paisa < 10);
+
+// const obj = {
+//   name: "rohit",
+//   age: 20,
+// };
+
+// for (const key in obj) {
+//   console.log(`${key} : ${obj[key]}`);
+// }
+
+// let i = 0;
+// while (i < 5) {
+//   if (i === 2) {
+//     continue;
+//   }
+//   console.log(i);
+//   i++;
+// }
+
+// const obj = {
+//   name: "rohit",
+//   age: 20,
+// };
+
+// Object.keys(obj).forEach((element) => {
+//   console.log(element, obj[element]);
+// });
